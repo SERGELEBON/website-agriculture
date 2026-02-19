@@ -29,7 +29,8 @@ export const COMPANY_INFO = {
   name: 'West Africa Agricultural Commodities Ltd.',
   shortName: 'WEST AFRICA',
   phones: ['053 836 1679', '020 067 4743'],
-  email: 'westafricaagrocommoltd@gmail.com',
+  email: 'westafricaagrocommoltd@gmail.com', // Email for backend/sending
+  displayEmails: ['info@westafricaagrocommoltd.com', 'contacts@westafricaagrocommolt.com'], // Emails for display
   whatsapp: '233538361679', // Format international sans le +
   location: 'West Africa Region (Ghana, Nigeria, Ivory Coast)',
   businessHours: {

@@ -59,8 +59,8 @@ export default function ContactInfo({ isVisible = true, showMap = true }: Contac
     {
       icon: Mail,
       title: 'Email',
-      details: [COMPANY_INFO.email],
-      href: `mailto:${COMPANY_INFO.email}`,
+      details: COMPANY_INFO.displayEmails,
+      href: `mailto:${COMPANY_INFO.displayEmails[0]}`,
       delay: 400,
     },
     {
