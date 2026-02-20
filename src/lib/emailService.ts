@@ -96,7 +96,7 @@ export async function sendContactEmail(data: ContactFormData): Promise<{ success
  * Generate WhatsApp link for direct chat
  */
 export function getWhatsAppLink(message?: string): string {
-  const phone = '233538361679'; // International format without +
+  const phone = '233200674743'; // International format without +
   const defaultMessage = encodeURIComponent(
     message || 'Hello! I would like to inquire about your agricultural commodities services.'
   );
@@ -107,7 +107,7 @@ export function getWhatsAppLink(message?: string): string {
  * Generate direct call link
  */
 export function getPhoneLink(): string {
-  return 'tel:+233538361679';
+  return 'tel:+233200674743';
 }
 
 /**

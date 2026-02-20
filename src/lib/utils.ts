@@ -31,7 +31,7 @@ export const COMPANY_INFO = {
   phones: ['053 836 1679', '020 067 4743'],
   email: 'westafricaagrocommoltd@gmail.com', // Email for backend/sending
   displayEmails: ['info@westafricaagrocommoltd.com', 'contacts@westafricaagrocommolt.com'], // Emails for display
-  whatsapp: '233538361679', // Format international sans le +
+  whatsapp: '233200674743', // Format international sans le +
   location: 'West Africa Region (Ghana, Nigeria, Ivory Coast)',
   businessHours: {
     weekday: 'Monday - Friday: 8AM - 6PM',
